@@ -1,0 +1,29 @@
+<legend>User Information</legend>
+<div *ngIf="site">
+  <div class="form-group row"> <!-- GUD -->
+    <label class="col-6 col-form-label">GUID</label>
+    <div class="col-6">{{site.guid}}</div>
+  </div>
+
+
+  <div class="form-group row"> <!-- Customer UID -->
+    <label class="col-6 col-form-label">Customer UID</label>
+    <div class="col-6">{{site.customerUid}}</div>
+  </div>
+
+  <div class="form-group row"> <!-- First Name -->
+    <label class="col-6 col-form-label">Site</label>
+    <div class="col-6">{{site.site}}</div>
+  </div>
+
+  <div class="form-group row"> <!-- Last Name -->
+    <label class="col-6 col-form-label">Url</label>
+    <div class="col-6">{{site.url}}</div>
+  </div>
+
+  <div class="form-group row"> <!-- Password -->
+    <label class="col-6 col-form-label">Password</label>
+    <div class="col-6">{{site.password}}</div>
+  </div>
+
+</div>
